@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+	
+	<!--  -->
+	<tracker>
+		<url>http://url.to.task/list.xml</url>
+		<user>user</user>
+		<password>password</password>
+	</tracker>
+
+	<options>
+		<warnings>
+			
+			<!--  -->
+			<files>
+				<name>/catalog/name/here</name>
+				<name>/file/name/here.txt</name>
+			</files>
+
+			<!-- Minimal commit message length -->
+			<message>
+				<length>3</length>
+			</message>
+		</warnings>
+	</options>
+
+	<ftp>
+		<sources>
+			<source type="FileZilla">
+				<name>FileZilla_SiteManager</name>
+				<value>C:/path/to/sitemanager.xml</value>
+			</source>
+		</sources>
+
+		<connections>
+			<connection>
+				<repository>https://url.to/repository/trunk</repository>
+
+				<ftp>
+					<source>FileZilla_SiteManager</source>
+					<name>user@host</name>
+				</ftp>
+			</connection>
+		</connections>
+	</ftp>
+</settings>
