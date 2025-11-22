@@ -1,0 +1,5 @@
+bin/Debug/
+bin/Release/CustomIssueTracker.pdb
+obj/
+CustomIssueTracker.csproj.user
+CustomIssueTracker.suo
