@@ -8,9 +8,6 @@ using System.Xml;
 
 namespace CustomIssueTracker
 {
-	/**
-	 * @author Wojciech Holisz <wojciech.holisz@gmail.com>
-	 */
     class Parameters
     {
         public Parameters(string filename)

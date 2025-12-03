@@ -1,8 +1,5 @@
 namespace CustomIssueTracker
 {
-	/**
-	 * @author Wojciech Holisz <wojciech.holisz@gmail.com>
-	 */
     public class TicketItem
     {
         public int Number;

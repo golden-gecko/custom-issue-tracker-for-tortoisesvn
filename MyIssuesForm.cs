@@ -11,9 +11,6 @@ using System.Xml;
 
 namespace CustomIssueTracker
 {
-	/**
-	 * @author Wojciech Holisz <wojciech.holisz@gmail.com>
-	 */
     partial class MyIssuesForm : Form
     {
         private readonly IEnumerable<TicketItem> _tickets;

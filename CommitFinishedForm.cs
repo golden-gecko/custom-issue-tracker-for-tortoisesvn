@@ -9,9 +9,6 @@ using System.Windows.Forms;
 
 namespace CustomIssueTracker
 {
-	/**
-	 * @author Wojciech Holisz <wojciech.holisz@gmail.com>
-	 */
 	public partial class CommitFinishedForm : Form
 	{
 		public CommitFinishedForm( List<TicketItem> selectedTickets )

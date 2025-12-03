@@ -8,9 +8,6 @@ using System.Windows.Forms;
 
 namespace CustomIssueTracker
 {
-	/**
-	 * @author Wojciech Holisz <wojciech.holisz@gmail.com>
-	 */
     public partial class OptionsForm : Form
     {
         public OptionsForm(string parameters)

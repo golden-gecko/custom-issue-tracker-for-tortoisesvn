@@ -11,9 +11,6 @@ using System.Windows.Forms;
 
 namespace CustomIssueTracker
 {
-	/**
-	 * @author Wojciech Holisz <wojciech.holisz@gmail.com>
-	 */
     [ComVisible(true), Guid("5870B3F1-8393-4c83-ACED-1D5E803A4F2B"), ClassInterface(ClassInterfaceType.None)]
     public class CustomIssueTracker : IBugTraqProvider2
     {
